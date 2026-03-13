@@ -476,6 +476,90 @@ footer {
   font-size: 0.8rem;
 }
 
+/* Social share buttons */
+.share-buttons {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 8px;
+  margin-top: 6px;
+  border-top: 1px solid var(--border-light);
+  flex-wrap: wrap;
+}
+
+.share-label {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+  margin-right: 2px;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-size: 0.75rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0;
+}
+
+.share-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.share-twitter {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+  font-size: 0.65rem;
+}
+
+.share-twitter:hover {
+  background-color: #333;
+}
+
+.share-facebook {
+  background-color: #1877f2;
+  color: #fff;
+  border-color: #1877f2;
+  font-size: 0.9rem;
+}
+
+.share-facebook:hover {
+  background-color: #166fe5;
+}
+
+.share-email {
+  background-color: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+  font-size: 0.85rem;
+}
+
+.share-email:hover {
+  background-color: var(--primary-light);
+}
+
+.share-copy {
+  background-color: var(--background);
+  color: var(--text-primary);
+  border-color: var(--border);
+  font-size: 0.8rem;
+}
+
+.share-copy:hover {
+  background-color: var(--border);
+}
+
 /* Search and Filter Components - Updated for Sidebar */
 .search-box {
   display: flex;
